@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - main block
- * Description: Print statements based on the last digit of the random number.
+ * main - Entry point
+ * Description: Print the last digit of a random number and whether it is greater than 5, less than 6 and not 0, or equal to 0.
  * Return: 0
  */
 
