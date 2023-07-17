@@ -7,21 +7,34 @@
  *
  * Return: Always 0 (Success)
  */
+#include <stdio.h>
+
 int main(void)
+
 {
-    char digit;
 
-    for (digit = '0'; digit <= '9'; digit++)
-    {
-        putchar(digit);
-    }
+	int num;
 
-    for (digit = 'a'; digit <= 'f'; digit++)
-    {
-        putchar(digit);
-    }
+	char letter;
 
-    putchar('\n');
 
-    return (0);
+
+	for (num = 0; num < 10; num++)
+
+		putchar((num % 10) + '0');
+
+
+
+	for (letter = 'a'; letter <= 'f'; letter++)
+
+		putchar(letter);
+
+
+
+	putchar('\n');
+
+
+
+	return (0);
+
 }
