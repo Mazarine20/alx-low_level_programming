@@ -1,2 +1,1 @@
-# alx-low_level_programming
-My readme
+# Even more pointers, arrays and strings
